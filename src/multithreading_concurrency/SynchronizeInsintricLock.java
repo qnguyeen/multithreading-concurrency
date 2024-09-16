@@ -1,5 +1,5 @@
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+package multithreading_concurrency;
+
 import java.util.stream.IntStream;
 
 public class SynchronizeInsintricLock {
