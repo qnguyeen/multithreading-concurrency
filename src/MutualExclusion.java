@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 
 public class MutualExclusion {
 
-    private static int COUNTER = 0;
+    private static int COUNTER = 0;//shared resource
     private static Lock LOCK = new ReentrantLock();// key để lock và unlock
 
     public static void main(String... args) throws Exception {

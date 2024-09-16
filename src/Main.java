@@ -23,5 +23,7 @@ public class Main {
         // thread sẽ tương tác với registor(cpu) chứ k phải với Ram, sau khi thay đối mới copy lại về Ram
         // -> sử dụng critical section - đoạn code dùng để read/write shared resource
         // để giải quyết (nutual exclusion- kiểu nếu A thì B thôi, B thì A thôi, chỉ only 1 thread sdung key tại 1 thời điểm)
+
+        // race condition : vấn đề sai sót về mặt thời gian hoặc thứ tự thực thi của các thread
     }
 }
